@@ -2,7 +2,7 @@
 - Node.js/ Express/ API
 - User can input any location name or zipcode . It will show the current weather condition of  targeted location. 
 - Connected with weatherapi.com
-
+# link  https://cherryis.github.io/Current-Weather-JS-API-/
 # Run file
 - nodemon app.js ( if nodemon installed like this => npm install -g nodemon )
 
