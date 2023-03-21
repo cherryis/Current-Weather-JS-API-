@@ -14,7 +14,7 @@ app.get("/", function (req, res) {  //APi end point name => "/" variable should 
 app.post("/getWeather", function (req, res) { //APi end point name => "/getWeather" should be unique name"
     console.log("Post request received.");
     const query = req.body.cityName;
-    const apiKey = "cfa4cc0573844f1ab8f183516230103";
+    const apiKey = "";
     const url = "https://api.weatherapi.com/v1/current.json?key=" + apiKey + "&q=" + query + "&aqi=no";
 
     https.get(url, function (response) {
